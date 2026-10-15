@@ -1,0 +1,9 @@
+Adicione estas linhas dentro do bloco dependencies { } do seu
+app/build.gradle.kts (Module :app), junto com as que já existem:
+
+    implementation("androidx.recyclerview:recyclerview:1.3.2")
+
+(O Room NÃO é necessário para esta versão do app, já que ela usa
+armazenamento em memória via AppData.java. Se decidir plugar o Room
+depois, volte a adicionar room-runtime e room-compiler como já
+conversamos.)

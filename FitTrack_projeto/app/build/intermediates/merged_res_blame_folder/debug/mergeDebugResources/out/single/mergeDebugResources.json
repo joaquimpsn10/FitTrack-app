@@ -1,0 +1,98 @@
+[
+    {
+        "merged": "com.example.fittrack.app-debug-35:/layout_activity_perfil.xml.flat",
+        "source": "com.example.fittrack.app-main-37:/layout/activity_perfil.xml"
+    },
+    {
+        "merged": "com.example.fittrack.app-debug-35:/layout_activity_treinos.xml.flat",
+        "source": "com.example.fittrack.app-main-37:/layout/activity_treinos.xml"
+    },
+    {
+        "merged": "com.example.fittrack.app-debug-35:/drawable_ic_arrow_back.xml.flat",
+        "source": "com.example.fittrack.app-main-37:/drawable/ic_arrow_back.xml"
+    },
+    {
+        "merged": "com.example.fittrack.app-debug-35:/layout_item_exercicio.xml.flat",
+        "source": "com.example.fittrack.app-main-37:/layout/item_exercicio.xml"
+    },
+    {
+        "merged": "com.example.fittrack.app-debug-35:/drawable_ic_fitness_center.xml.flat",
+        "source": "com.example.fittrack.app-main-37:/drawable/ic_fitness_center.xml"
+    },
+    {
+        "merged": "com.example.fittrack.app-debug-35:/layout_item_treino_sugerido.xml.flat",
+        "source": "com.example.fittrack.app-main-37:/layout/item_treino_sugerido.xml"
+    },
+    {
+        "merged": "com.example.fittrack.app-debug-35:/layout_activity_historico.xml.flat",
+        "source": "com.example.fittrack.app-main-37:/layout/activity_historico.xml"
+    },
+    {
+        "merged": "com.example.fittrack.app-debug-35:/layout_item_registro_execucao.xml.flat",
+        "source": "com.example.fittrack.app-main-37:/layout/item_registro_execucao.xml"
+    },
+    {
+        "merged": "com.example.fittrack.app-debug-35:/drawable_ic_dumbbells.xml.flat",
+        "source": "com.example.fittrack.app-main-37:/drawable/ic_dumbbells.xml"
+    },
+    {
+        "merged": "com.example.fittrack.app-debug-35:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.example.fittrack.app-main-37:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.fittrack.app-debug-35:/xml_backup_rules.xml.flat",
+        "source": "com.example.fittrack.app-main-37:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.example.fittrack.app-debug-35:/layout_activity_exercicios.xml.flat",
+        "source": "com.example.fittrack.app-main-37:/layout/activity_exercicios.xml"
+    },
+    {
+        "merged": "com.example.fittrack.app-debug-35:/layout_activity_executar_treino.xml.flat",
+        "source": "com.example.fittrack.app-main-37:/layout/activity_executar_treino.xml"
+    },
+    {
+        "merged": "com.example.fittrack.app-debug-35:/layout_activity_treinos_sugeridos.xml.flat",
+        "source": "com.example.fittrack.app-main-37:/layout/activity_treinos_sugeridos.xml"
+    },
+    {
+        "merged": "com.example.fittrack.app-debug-35:/layout_item_treino.xml.flat",
+        "source": "com.example.fittrack.app-main-37:/layout/item_treino.xml"
+    },
+    {
+        "merged": "com.example.fittrack.app-debug-35:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.fittrack.app-main-37:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.example.fittrack.app-debug-35:/drawable_ic_history.xml.flat",
+        "source": "com.example.fittrack.app-main-37:/drawable/ic_history.xml"
+    },
+    {
+        "merged": "com.example.fittrack.app-debug-35:/layout_activity_main.xml.flat",
+        "source": "com.example.fittrack.app-main-37:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.fittrack.app-debug-35:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.example.fittrack.app-main-37:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.example.fittrack.app-debug-35:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.example.fittrack.app-main-37:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.example.fittrack.app-debug-35:/layout_item_exercicio_selecionavel.xml.flat",
+        "source": "com.example.fittrack.app-main-37:/layout/item_exercicio_selecionavel.xml"
+    },
+    {
+        "merged": "com.example.fittrack.app-debug-35:/xml_data_extraction_rules.xml.flat",
+        "source": "com.example.fittrack.app-main-37:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.example.fittrack.app-debug-35:/drawable_ic_person.xml.flat",
+        "source": "com.example.fittrack.app-main-37:/drawable/ic_person.xml"
+    },
+    {
+        "merged": "com.example.fittrack.app-debug-35:/layout_item_historico_treino.xml.flat",
+        "source": "com.example.fittrack.app-main-37:/layout/item_historico_treino.xml"
+    }
+]

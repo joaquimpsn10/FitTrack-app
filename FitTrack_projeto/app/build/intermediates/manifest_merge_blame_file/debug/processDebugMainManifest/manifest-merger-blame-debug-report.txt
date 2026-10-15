@@ -1,0 +1,177 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.fittrack"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="34" />
+10
+11    <permission
+11-->[androidx.core:core:1.9.0] C:\Users\joaqu\.gradle\caches\8.11.1\transforms\74a9e3f79c9e27fc6582763434515896\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+12        android:name="com.example.fittrack.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+12-->[androidx.core:core:1.9.0] C:\Users\joaqu\.gradle\caches\8.11.1\transforms\74a9e3f79c9e27fc6582763434515896\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+13        android:protectionLevel="signature" />
+13-->[androidx.core:core:1.9.0] C:\Users\joaqu\.gradle\caches\8.11.1\transforms\74a9e3f79c9e27fc6582763434515896\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+14
+15    <uses-permission android:name="com.example.fittrack.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+15-->[androidx.core:core:1.9.0] C:\Users\joaqu\.gradle\caches\8.11.1\transforms\74a9e3f79c9e27fc6582763434515896\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+15-->[androidx.core:core:1.9.0] C:\Users\joaqu\.gradle\caches\8.11.1\transforms\74a9e3f79c9e27fc6582763434515896\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+16
+17    <application
+17-->C:\Users\joaqu\Downloads\FitTrack_projeto_completo\FitTrack_projeto\app\src\main\AndroidManifest.xml:5:5-43:19
+18        android:allowBackup="true"
+18-->C:\Users\joaqu\Downloads\FitTrack_projeto_completo\FitTrack_projeto\app\src\main\AndroidManifest.xml:6:9-35
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.9.0] C:\Users\joaqu\.gradle\caches\8.11.1\transforms\74a9e3f79c9e27fc6582763434515896\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+20        android:dataExtractionRules="@xml/data_extraction_rules"
+20-->C:\Users\joaqu\Downloads\FitTrack_projeto_completo\FitTrack_projeto\app\src\main\AndroidManifest.xml:7:9-65
+21        android:debuggable="true"
+22        android:extractNativeLibs="false"
+23        android:fullBackupContent="@xml/backup_rules"
+23-->C:\Users\joaqu\Downloads\FitTrack_projeto_completo\FitTrack_projeto\app\src\main\AndroidManifest.xml:8:9-54
+24        android:icon="@mipmap/ic_launcher"
+24-->C:\Users\joaqu\Downloads\FitTrack_projeto_completo\FitTrack_projeto\app\src\main\AndroidManifest.xml:9:9-43
+25        android:label="@string/app_name"
+25-->C:\Users\joaqu\Downloads\FitTrack_projeto_completo\FitTrack_projeto\app\src\main\AndroidManifest.xml:10:9-41
+26        android:roundIcon="@mipmap/ic_launcher_round"
+26-->C:\Users\joaqu\Downloads\FitTrack_projeto_completo\FitTrack_projeto\app\src\main\AndroidManifest.xml:11:9-54
+27        android:supportsRtl="true"
+27-->C:\Users\joaqu\Downloads\FitTrack_projeto_completo\FitTrack_projeto\app\src\main\AndroidManifest.xml:12:9-35
+28        android:testOnly="true"
+29        android:theme="@style/Theme.FitTrack" >
+29-->C:\Users\joaqu\Downloads\FitTrack_projeto_completo\FitTrack_projeto\app\src\main\AndroidManifest.xml:13:9-46
+30        <activity
+30-->C:\Users\joaqu\Downloads\FitTrack_projeto_completo\FitTrack_projeto\app\src\main\AndroidManifest.xml:14:9-23:20
+31            android:name="com.example.fittrack.MainActivity"
+31-->C:\Users\joaqu\Downloads\FitTrack_projeto_completo\FitTrack_projeto\app\src\main\AndroidManifest.xml:15:13-41
+32            android:exported="true"
+32-->C:\Users\joaqu\Downloads\FitTrack_projeto_completo\FitTrack_projeto\app\src\main\AndroidManifest.xml:16:13-36
+33            android:theme="@style/Theme.FitTrack" >
+33-->C:\Users\joaqu\Downloads\FitTrack_projeto_completo\FitTrack_projeto\app\src\main\AndroidManifest.xml:17:13-50
+34            <intent-filter>
+34-->C:\Users\joaqu\Downloads\FitTrack_projeto_completo\FitTrack_projeto\app\src\main\AndroidManifest.xml:18:13-22:29
+35                <action android:name="android.intent.action.MAIN" />
+35-->C:\Users\joaqu\Downloads\FitTrack_projeto_completo\FitTrack_projeto\app\src\main\AndroidManifest.xml:19:17-69
+35-->C:\Users\joaqu\Downloads\FitTrack_projeto_completo\FitTrack_projeto\app\src\main\AndroidManifest.xml:19:25-66
+36
+37                <category android:name="android.intent.category.LAUNCHER" />
+37-->C:\Users\joaqu\Downloads\FitTrack_projeto_completo\FitTrack_projeto\app\src\main\AndroidManifest.xml:21:17-77
+37-->C:\Users\joaqu\Downloads\FitTrack_projeto_completo\FitTrack_projeto\app\src\main\AndroidManifest.xml:21:27-74
+38            </intent-filter>
+39        </activity>
+40        <activity
+40-->C:\Users\joaqu\Downloads\FitTrack_projeto_completo\FitTrack_projeto\app\src\main\AndroidManifest.xml:25:9-27:40
+41            android:name="com.example.fittrack.ExerciciosActivity"
+41-->C:\Users\joaqu\Downloads\FitTrack_projeto_completo\FitTrack_projeto\app\src\main\AndroidManifest.xml:26:13-47
+42            android:exported="false" />
+42-->C:\Users\joaqu\Downloads\FitTrack_projeto_completo\FitTrack_projeto\app\src\main\AndroidManifest.xml:27:13-37
+43        <activity
+43-->C:\Users\joaqu\Downloads\FitTrack_projeto_completo\FitTrack_projeto\app\src\main\AndroidManifest.xml:28:9-30:40
+44            android:name="com.example.fittrack.TreinosActivity"
+44-->C:\Users\joaqu\Downloads\FitTrack_projeto_completo\FitTrack_projeto\app\src\main\AndroidManifest.xml:29:13-44
+45            android:exported="false" />
+45-->C:\Users\joaqu\Downloads\FitTrack_projeto_completo\FitTrack_projeto\app\src\main\AndroidManifest.xml:30:13-37
+46        <activity
+46-->C:\Users\joaqu\Downloads\FitTrack_projeto_completo\FitTrack_projeto\app\src\main\AndroidManifest.xml:31:9-33:40
+47            android:name="com.example.fittrack.TreinosSugeridosActivity"
+47-->C:\Users\joaqu\Downloads\FitTrack_projeto_completo\FitTrack_projeto\app\src\main\AndroidManifest.xml:32:13-53
+48            android:exported="false" />
+48-->C:\Users\joaqu\Downloads\FitTrack_projeto_completo\FitTrack_projeto\app\src\main\AndroidManifest.xml:33:13-37
+49        <activity
+49-->C:\Users\joaqu\Downloads\FitTrack_projeto_completo\FitTrack_projeto\app\src\main\AndroidManifest.xml:34:9-36:40
+50            android:name="com.example.fittrack.ExecutarTreinoActivity"
+50-->C:\Users\joaqu\Downloads\FitTrack_projeto_completo\FitTrack_projeto\app\src\main\AndroidManifest.xml:35:13-51
+51            android:exported="false" />
+51-->C:\Users\joaqu\Downloads\FitTrack_projeto_completo\FitTrack_projeto\app\src\main\AndroidManifest.xml:36:13-37
+52        <activity
+52-->C:\Users\joaqu\Downloads\FitTrack_projeto_completo\FitTrack_projeto\app\src\main\AndroidManifest.xml:37:9-39:40
+53            android:name="com.example.fittrack.HistoricoActivity"
+53-->C:\Users\joaqu\Downloads\FitTrack_projeto_completo\FitTrack_projeto\app\src\main\AndroidManifest.xml:38:13-46
+54            android:exported="false" />
+54-->C:\Users\joaqu\Downloads\FitTrack_projeto_completo\FitTrack_projeto\app\src\main\AndroidManifest.xml:39:13-37
+55        <activity
+55-->C:\Users\joaqu\Downloads\FitTrack_projeto_completo\FitTrack_projeto\app\src\main\AndroidManifest.xml:40:9-42:40
+56            android:name="com.example.fittrack.PerfilActivity"
+56-->C:\Users\joaqu\Downloads\FitTrack_projeto_completo\FitTrack_projeto\app\src\main\AndroidManifest.xml:41:13-43
+57            android:exported="false" />
+57-->C:\Users\joaqu\Downloads\FitTrack_projeto_completo\FitTrack_projeto\app\src\main\AndroidManifest.xml:42:13-37
+58
+59        <service
+59-->[androidx.room:room-runtime:2.6.1] C:\Users\joaqu\.gradle\caches\8.11.1\transforms\d6ef7767c8cc8a63ebb2405dcaaaf281\transformed\room-runtime-2.6.1\AndroidManifest.xml:24:9-28:63
+60            android:name="androidx.room.MultiInstanceInvalidationService"
+60-->[androidx.room:room-runtime:2.6.1] C:\Users\joaqu\.gradle\caches\8.11.1\transforms\d6ef7767c8cc8a63ebb2405dcaaaf281\transformed\room-runtime-2.6.1\AndroidManifest.xml:25:13-74
+61            android:directBootAware="true"
+61-->[androidx.room:room-runtime:2.6.1] C:\Users\joaqu\.gradle\caches\8.11.1\transforms\d6ef7767c8cc8a63ebb2405dcaaaf281\transformed\room-runtime-2.6.1\AndroidManifest.xml:26:13-43
+62            android:exported="false" />
+62-->[androidx.room:room-runtime:2.6.1] C:\Users\joaqu\.gradle\caches\8.11.1\transforms\d6ef7767c8cc8a63ebb2405dcaaaf281\transformed\room-runtime-2.6.1\AndroidManifest.xml:27:13-37
+63
+64        <provider
+64-->[androidx.emoji2:emoji2:1.2.0] C:\Users\joaqu\.gradle\caches\8.11.1\transforms\564034ceeb3a39c1bc495da3dc14b07c\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+65            android:name="androidx.startup.InitializationProvider"
+65-->[androidx.emoji2:emoji2:1.2.0] C:\Users\joaqu\.gradle\caches\8.11.1\transforms\564034ceeb3a39c1bc495da3dc14b07c\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+66            android:authorities="com.example.fittrack.androidx-startup"
+66-->[androidx.emoji2:emoji2:1.2.0] C:\Users\joaqu\.gradle\caches\8.11.1\transforms\564034ceeb3a39c1bc495da3dc14b07c\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+67            android:exported="false" >
+67-->[androidx.emoji2:emoji2:1.2.0] C:\Users\joaqu\.gradle\caches\8.11.1\transforms\564034ceeb3a39c1bc495da3dc14b07c\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+68            <meta-data
+68-->[androidx.emoji2:emoji2:1.2.0] C:\Users\joaqu\.gradle\caches\8.11.1\transforms\564034ceeb3a39c1bc495da3dc14b07c\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+69                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+69-->[androidx.emoji2:emoji2:1.2.0] C:\Users\joaqu\.gradle\caches\8.11.1\transforms\564034ceeb3a39c1bc495da3dc14b07c\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+70                android:value="androidx.startup" />
+70-->[androidx.emoji2:emoji2:1.2.0] C:\Users\joaqu\.gradle\caches\8.11.1\transforms\564034ceeb3a39c1bc495da3dc14b07c\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+71            <meta-data
+71-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\joaqu\.gradle\caches\8.11.1\transforms\4aa11db3905ac31dcc56b24951acd853\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:29:13-31:52
+72                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+72-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\joaqu\.gradle\caches\8.11.1\transforms\4aa11db3905ac31dcc56b24951acd853\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:30:17-78
+73                android:value="androidx.startup" />
+73-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\joaqu\.gradle\caches\8.11.1\transforms\4aa11db3905ac31dcc56b24951acd853\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:31:17-49
+74            <meta-data
+74-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\joaqu\.gradle\caches\8.11.1\transforms\53e9f07205cd19f67d3f5b15bb2ddfba\transformed\profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+75                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+75-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\joaqu\.gradle\caches\8.11.1\transforms\53e9f07205cd19f67d3f5b15bb2ddfba\transformed\profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+76                android:value="androidx.startup" />
+76-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\joaqu\.gradle\caches\8.11.1\transforms\53e9f07205cd19f67d3f5b15bb2ddfba\transformed\profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+77        </provider>
+78
+79        <receiver
+79-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\joaqu\.gradle\caches\8.11.1\transforms\53e9f07205cd19f67d3f5b15bb2ddfba\transformed\profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+80            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+80-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\joaqu\.gradle\caches\8.11.1\transforms\53e9f07205cd19f67d3f5b15bb2ddfba\transformed\profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+81            android:directBootAware="false"
+81-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\joaqu\.gradle\caches\8.11.1\transforms\53e9f07205cd19f67d3f5b15bb2ddfba\transformed\profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+82            android:enabled="true"
+82-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\joaqu\.gradle\caches\8.11.1\transforms\53e9f07205cd19f67d3f5b15bb2ddfba\transformed\profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+83            android:exported="true"
+83-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\joaqu\.gradle\caches\8.11.1\transforms\53e9f07205cd19f67d3f5b15bb2ddfba\transformed\profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+84            android:permission="android.permission.DUMP" >
+84-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\joaqu\.gradle\caches\8.11.1\transforms\53e9f07205cd19f67d3f5b15bb2ddfba\transformed\profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+85            <intent-filter>
+85-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\joaqu\.gradle\caches\8.11.1\transforms\53e9f07205cd19f67d3f5b15bb2ddfba\transformed\profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+86                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+86-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\joaqu\.gradle\caches\8.11.1\transforms\53e9f07205cd19f67d3f5b15bb2ddfba\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+86-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\joaqu\.gradle\caches\8.11.1\transforms\53e9f07205cd19f67d3f5b15bb2ddfba\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+87            </intent-filter>
+88            <intent-filter>
+88-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\joaqu\.gradle\caches\8.11.1\transforms\53e9f07205cd19f67d3f5b15bb2ddfba\transformed\profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+89                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+89-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\joaqu\.gradle\caches\8.11.1\transforms\53e9f07205cd19f67d3f5b15bb2ddfba\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+89-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\joaqu\.gradle\caches\8.11.1\transforms\53e9f07205cd19f67d3f5b15bb2ddfba\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+90            </intent-filter>
+91            <intent-filter>
+91-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\joaqu\.gradle\caches\8.11.1\transforms\53e9f07205cd19f67d3f5b15bb2ddfba\transformed\profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+92                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+92-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\joaqu\.gradle\caches\8.11.1\transforms\53e9f07205cd19f67d3f5b15bb2ddfba\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+92-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\joaqu\.gradle\caches\8.11.1\transforms\53e9f07205cd19f67d3f5b15bb2ddfba\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+93            </intent-filter>
+94            <intent-filter>
+94-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\joaqu\.gradle\caches\8.11.1\transforms\53e9f07205cd19f67d3f5b15bb2ddfba\transformed\profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+95                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+95-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\joaqu\.gradle\caches\8.11.1\transforms\53e9f07205cd19f67d3f5b15bb2ddfba\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+95-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\joaqu\.gradle\caches\8.11.1\transforms\53e9f07205cd19f67d3f5b15bb2ddfba\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+96            </intent-filter>
+97        </receiver>
+98    </application>
+99
+100</manifest>
